@@ -22,9 +22,14 @@
                     {{/if}}
                 </nav>          
           </div>
-          <div
-          <h1 class="app-title"><i class="fab"></i>The Tech Blog</h1>
-          </div>
+          <div>
+        {{#if loggedIn}}
+        <h1 class="app-title"><i class="fab"></i>The Tech Blog</h1>
+        {{else}}
+        <h1 class="app-title"><i class="fab"></i>Dashboard</h1>
+        {{/if}}
+        </div>
+        
       </header>
 
     <main>
