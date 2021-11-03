@@ -1,6 +1,4 @@
 const Sequelize = require('sequelize');
-const mysql = require('mysql2');
-
 require('dotenv').config();
 let sequelize;
 if (process.env.JAWSDB_URL) {
