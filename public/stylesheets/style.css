@@ -3,7 +3,7 @@
     --secondary: #dce9d5;
     --tertiary: #788585;
     --light-dark: #a1a0a1;
-    --dark: #72150f;
+    --dark: #691e18;
     --border-radius: .3rem;
 }
                 
@@ -162,12 +162,9 @@ a{
     color: rgb(29, 153, 255);
 }
 /* CARDS */
- .card {
-        displaY: block;
-        float: left;
-        /* width: 33.33%; */
-        text-align: left;
-    margin: 0 25px 0 0;
+                
+.card {
+    margin: 0 0 20px 0;
     border: 2px solid var(--dark);
     border-radius: var(--border-radius);
 }
