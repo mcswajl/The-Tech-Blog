@@ -35,28 +35,6 @@ app.use(routes);
 sequelize.sync({ force: false }).then(() => {
     app.listen(PORT, () => console.log('Now listening'));
 
-    //time out in 30 sec on inactivity
-let session = new IdleSessionTimeout(3000);
- 
-session.onTimeOut = () => {
-    async function logout() {
-        const response = await fetch('/api/users/logout', {
-          method: 'post',
-          headers: { 'Content-Type': 'application/json' }
-        });
-      
-        if (response.ok) {
-          document.location.replace('/');
-        } else {
-          alert(response.statusText);
-        }
-      }
-    console.log(logout);
-};
- 
-// //optional
-// session.onTimeLeftChange = (timeLeft) => {
-//     // this will notify you  each second about the time left before the timeout
-//     console.log(`${timeLeft} ms left`);
-// }
+
+
 });
