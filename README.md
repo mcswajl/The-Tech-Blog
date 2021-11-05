@@ -81,7 +81,7 @@ Another first, when I (or any user of my app) is idle on the site for more than 
 
 ## Screenshot (taken during development)
 Screenshot of my website
-![Screenshot](/images/screenshot.jpg)
+![Screenshot](./public/images/screenshot.jpg)
 
 ## GitHub
 
