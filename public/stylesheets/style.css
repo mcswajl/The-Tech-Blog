@@ -131,21 +131,6 @@ box-shadow: 2px 2px var(--dark);
 a{
     text-decoration: none !important;
   }
-  
-
-/* .list-group {
-    padding: 0;
-        list-style: none;
-}
-                
-/* .list-item {
-    margin-bottom: 10px;
-    padding: 1.5%;
-    border-radius: var(--border-radius);
-    background-color: var(--light-dark);
-    color: var(--primary);
-    text-decoration: none; */
-
                 
 .list-item:hover {
     background-color: var(--dark);
@@ -228,13 +213,6 @@ h4 {
     padding: 20px;
 }
                 
-footer {
-    border-top: 1px solid #ccc;
-    display: flex;
-    justify-content: center;
-    padding: 1%;
-        font-size: 110%;
-}
                 
 .form-label,
 .form-input,
@@ -253,115 +231,12 @@ footer {
     margin: 5px 0;
     font-size: 18px;
     border: 2px solid var(--light-dark);
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius); 
 }
                 
-/* .min-100-vh {
-    min-height: 100vh;
-}
+
                 
-.min-100-vw {
-    min-width: 100vw;
-}
-                
-.text-uppercase {
-    text-transform: uppercase; */
-/* } */
-                
-.flex-row {
-    display: flex;
-    flex-wrap: wrap;
-}
 
-.flex-column {
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-}
-                
-.justify-space-between {
-justify-content: space-between;
-}
-                
-.justify-space-around {
-justify-content: space-around;
-}
-
-.justify-flex-start {
-justify-content: flex-start
-}
-                
-.justify-flex-end {
-    justify-content: flex-end;
-}
-                
-.justify-center {
-    justify-content: center;
-}
-                
-.align-stretch {
-    align-items: stretch;
-}
-                
-.align-end {
-    align-items: flex-end;
-}
-                
-.align-center {
-    align-items: center;
-}
-
-.col-auto {
-flex-grow: 1;
-}
-
-.col-1 {
-    flex: 0 0 calc(100% * 1 / 12 - 2%);
-}
-
-.col-2 {
-    flex: 0 0 calc(100% * 2 / 12 - 2%);
-}
-
-.col-3 {
-    flex: 0 0 calc(100% * 3 / 12 - 2%);
-}
-
-.col-4 {
-    flex: 0 0 calc(100% * 4 / 12 - 2%);
-}
-
-.col-5 {
-    flex: 0 0 calc(100% * 5 / 12 - 2%);
-}
-
-.col-6 {
-    flex: 0 0 calc(100% * 6 / 12 - 2%);
-}
-
-.col-7 {
-    flex: 0 0 calc(100% * 7 / 12 - 2%);
-}
-
-.col-8 {
-    flex: 0 0 calc(100% * 8 / 12 - 2%);
-}
-
-.col-9 {
-    flex: 0 0 calc(100% * 9 / 12 - 2%);
-}
-
-.col-10 {
-    flex: 0 0 calc(100% * 10 / 12 - 2%);
-}
-
-.col-11 {
-    flex: 0 0 calc(100% * 11 / 12 - 2%);
-}
-
-.col-12 {
-    flex: 0 0 100%;
-}
 /* col-sm */
 
 @media screen and (min-width: 640px) {
