@@ -21,12 +21,7 @@ body {
     font-size: 18px;
 }
     
-.menu {
-    width: 100%;
-}
-.app-title {
-    width: 100%;
-}
+
 
 h1,               
 h2,
@@ -228,9 +223,8 @@ h4 {
 .nav {
     padding: 10px;
     line-height: 1.25;
-    float: left;
 }
-.nav>a {
+.nav > a {
     padding: 20px;
 }
                 
